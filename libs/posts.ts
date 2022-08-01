@@ -33,7 +33,7 @@ const parseSlug = (slug: string): Slug | undefined => {
   );
 
   const date = matches?.groups?.['date'];
-  const name = matches?.groups?.['date'];
+  const name = matches?.groups?.['name'];
 
   if (date == null) {
     return undefined;
